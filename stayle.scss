@@ -72,7 +72,10 @@
             width: 50%;
             height: 70vh;
             padding: 0 0 0 35px;
-
+            .po{
+                width:70%; 
+                margin:65px 0 0 180px;
+            }
             .col-3 {
                 width: 40%;
                 height: 25px;
@@ -368,7 +371,7 @@
         }
     }
 
-    .qwer {
+    .qwer1 {
         .fg {
             display: flex;
             flex-direction: column;
@@ -500,6 +503,22 @@
             }
         }
     }
+    .qwer{
+        .fg{
+            h1{
+                font-size: 60px;
+                color: white;
+                a{
+                    color: #CAFF33;
+                }
+            }
+            p{
+                font-size: 15px;
+                 padding:  0 250px 0 0 ;
+                  margin-top: 20px;
+            }
+        }
+    }
     .col-12{
         .col-77{
             width: 48%;
@@ -615,3 +634,246 @@
         background-color: #1c1c1c;
     }
 }
+@media screen and (max-width:480px){
+    .container{
+      width: 480px;
+      box-sizing: border-box;
+      height: auto;
+      padding: 20px 0;
+      nav{
+        height: 50px;
+        font-size: 10px;
+        padding: 0 10px;
+        ol{
+            display: flex;
+            gap: 5px;
+            button{
+                font-size: 10px;
+                padding: 5px 10px;
+            }
+        }
+        img{
+            width: 50px;
+        }
+        div{
+           button{
+            padding: 5px 10px;
+            font-size: 10px;
+           }
+            
+        }
+        
+      }
+      .col-12{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        .col-6{
+            width: 100%;
+            text-align: center;
+            padding: 0 40px;
+            .po{
+                margin: 50px 0 0 150px;
+            }
+            div{
+                h1 {
+                    padding: 0 40px;
+                    margin: 0;
+                    margin: 0 0 20px 0;
+                }
+            }
+            .col-3{
+                width: 60%;
+                height: 30px;
+                margin: 0 0 20px 80px;
+            }
+            .col-1{
+                width: 150px;
+                margin: 0;
+            }
+            .col-5{
+                width: 90%;
+                margin: auto;
+                text-align: start;
+                height: 490px;
+                .bolt2{
+                    height: 50px;
+                    .pp{
+                        p{
+                            font-size: 11px;
+                        }
+                    }
+                    .bn{
+                        margin: 10px 0 0 50% ;
+                    }
+                }
+                .bolt1{
+                    height: 50px;
+                    .pp{
+                        p{
+                            font-size: 11px;
+                        }
+                    }
+                    .bn{
+                        margin: 10px 0 0 40% ;
+                    }
+                }
+                .bolt{
+                    height: 50px;
+                    .pp{
+                        p{
+                            font-size: 11px;
+                        }
+                    }
+                    .bn{
+                        margin: 10px 0 0 30% ;
+                    }
+                }
+            }
+            
+        }
+      }
+      .qwer{
+        display: flex;
+        flex-wrap: wrap;
+        .col-2{
+            width: 100%;
+            text-align: center;
+            padding: 0 50px;
+        }
+        .hg{
+            margin: 20px 0 0 100px;
+        }
+      }
+      .box{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+        margin-top:50px;
+        height: auto;
+        .card{
+           width: 100%;
+           padding: 0 20px;
+        }
+      }
+      .qwer1{
+        text-align: center;
+        padding: 80px;
+        margin-top: 20px;
+      }
+      .col-12{
+        display: flex;
+        flex-wrap: wrap;
+        .col-9{
+            height: auto;
+            width: 100%;
+            margin-bottom:50px ;
+            button{
+                margin: auto;
+            }
+            .box{
+                display: flex;
+                flex-wrap: wrap;
+                .card{
+                    margin: 0;
+                    width: 95%;
+                    height: 100px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    gap: 10px;
+                }
+            }
+            .col-7{
+                width: 95%;
+                height: 350px;
+                margin: auto;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 20px;
+                gap:  15px;
+                .col-4{
+                    width: 48%;
+                    height: 48%;
+                }
+            }
+            text-align: center;
+            padding:0 20px;
+        }
+      }
+      .qwer{
+        .fg{
+            margin-top:0 ;
+            text-align: center;
+            padding:0 20px;
+            p{
+                margin: 0;
+                padding: 0;
+            }
+        }
+      }
+      .col-12{
+        .col-10{
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            
+            .col-13{
+                width: 80%;
+                margin: auto;
+                height: 400px;
+            }
+            .col-14{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 0;
+                .col-77{
+                    width: 90%;
+                    margin: auto;
+                    margin-top: 10px;
+                    height: 200px;
+                    margin: 20px 0 0 27px;
+                }
+            }
+        }
+      }
+      .col-12{
+        .col-77{
+            width: 95%;
+            margin: auto;
+            margin-bottom: 0;
+        }
+      }
+      .col-67{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        .jym{
+            margin-top: 30px;
+        }
+      }
+    }
+    .container-fuluit{
+        .col-23{
+            .col-55{
+                font-size: 10px;
+            }
+        }
+        nav{
+            width: 90%;
+            display: flex;
+            gap: 5px;
+            font-size: 10px;
+            padding:0 10px ;
+            img{
+                width: 60px;
+                
+            }
+        }
+    }
+    
+  }
